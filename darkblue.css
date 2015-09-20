@@ -1,0 +1,45 @@
+body {
+	background-color: black !important;
+}
+.global-nav-inner {
+	background: black !important;
+}
+.global-nav-inner h1 {
+	color: #3A539B !important;
+}
+/* Little box on the left */
+.DashboardProfileCard {
+	border: 1px solid #34495E !important;
+}
+.DashboardProfileCard-bg {
+	border-bottom: none !important;
+}
+.DashboardProfileCard-content {
+	background-color: #34495E !important;
+}
+.DashboardProfileCard-content span, .DashboardProfileCard-content a {
+	color: #67809F !important;
+}
+
+/* Tendances box */
+.Trends {
+	background-color: #34495E !important;
+	border: 1px solid #34495E !important;
+}
+.Trends span, .Trends a {
+	color: #67809F !important;
+}
+
+/* Main stream */
+.tweet {
+	background: #34495E !important;
+	border-bottom: 1px solid #34495E !important;
+}
+.js-stream-item, .stream-item, .stream-item, .expanding-stream-item {
+	border-left: 1px solid #34495E !important;
+	border-right: 1px solid #34495E !important;
+}
+
+span {
+	color: #3A539B !important;
+}
