@@ -34,6 +34,10 @@ body {
 .tweet {
 	background: #34495E !important;
 	border-bottom: 1px solid #34495E !important;
+	color: #67809F !important;
+}
+.tweet a, .tweet strong, .tweet span {
+	color: #67809F !important;
 }
 .js-stream-item, .stream-item, .stream-item, .expanding-stream-item {
 	border-left: 1px solid #34495E !important;
