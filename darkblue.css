@@ -1,5 +1,6 @@
 body {
 	background-color: black !important;
+	background: black !important;
 }
 .global-nav-inner {
 	background: black !important;
@@ -30,6 +31,19 @@ body {
 	color: #67809F !important;
 }
 
+/* Dashboard */
+.flex-module {
+	background-color: #34495E !important;
+	border: 1px solid #34495E !important;
+}
+.flex-module a, .flex-module span, .flex-module small {
+	color: #67809F !important;
+}
+
+.module, .roaming-module, .wtf-module, .js-wtf-module, .has-content{
+	color: #67809F !important;
+}
+
 /* Main stream */
 .tweet {
 	background: #34495E !important;
@@ -43,6 +57,15 @@ body {
 	border-left: 1px solid #34495E !important;
 	border-right: 1px solid #34495E !important;
 }
+/* BS */
+.home-tweet-box, .tweet-box, .component, .tweet-user {
+	background-color: #34495E !important;
+}
+.home-tweet-box, .RetweetDialog-commentBox, .WebToast-box--altColor, .content-main .conversations-enabled .expansion-container .inline-reply-tweetbox
+{
+	background-color: #34495E !important;
+}
+/* BS */
 
 span {
 	color: #3A539B !important;
