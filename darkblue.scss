@@ -1,0 +1,77 @@
+/* Variables */
+$bg_color: #34495E;
+$text_color: #67809F;
+$black: #000;
+
+body {
+	background-color: $black !important;
+	background: $black !important;
+}
+.global-nav-inner {
+	background: $black !important;
+}
+.global-nav-inner h1 {
+	color: #3A539B !important;
+}
+/* Little box on the left */
+.DashboardProfileCard {
+	border: 1px solid $bg_color !important;
+}
+.DashboardProfileCard-bg {
+	border-bottom: none !important;
+}
+.DashboardProfileCard-content {
+	background-color: $bg_color !important;
+}
+.DashboardProfileCard-content span, .DashboardProfileCard-content a {
+	color: $text_color !important;
+}
+
+/* Tendances box */
+.Trends {
+	background-color: $bg_color !important;
+	border: 1px solid $bg_color !important;
+}
+.Trends span, .Trends a {
+	color: $text_color !important;
+}
+
+/* Dashboard */
+.flex-module {
+	background-color: $bg_color !important;
+	border: 1px solid $bg_color !important;
+}
+.flex-module a, .flex-module span, .flex-module small {
+	color: $text_color !important;
+}
+
+.module, .roaming-module, .wtf-module, .js-wtf-module, .has-content{
+	color: $text_color !important;
+}
+
+/* Main stream */
+.tweet {
+	background: $bg_color !important;
+	border-bottom: 1px solid $bg_color !important;
+	color: $text_color !important;
+}
+.tweet a, .tweet strong, .tweet span {
+	color: $text_color !important;
+}
+.js-stream-item, .stream-item, .stream-item, .expanding-stream-item {
+	border-left: 1px solid $bg_color !important;
+	border-right: 1px solid $bg_color !important;
+}
+/* BS */
+.home-tweet-box, .tweet-box, .component, .tweet-user {
+	background-color: $bg_color !important;
+}
+.home-tweet-box, .RetweetDialog-commentBox, .WebToast-box--altColor, .content-main .conversations-enabled .expansion-container .inline-reply-tweetbox
+{
+	background-color: $bg_color !important;
+}
+/* BS */
+
+span {
+	color: #3A539B !important;
+}

@@ -1,72 +1,68 @@
+/* Variables */
 body {
-	background-color: black !important;
-	background: black !important;
-}
+  background-color: #000 !important;
+  background: #000 !important; }
+
 .global-nav-inner {
-	background: black !important;
-}
+  background: #000 !important; }
+
 .global-nav-inner h1 {
-	color: #3A539B !important;
-}
+  color: #3A539B !important; }
+
 /* Little box on the left */
 .DashboardProfileCard {
-	border: 1px solid #34495E !important;
-}
+  border: 1px solid #34495E !important; }
+
 .DashboardProfileCard-bg {
-	border-bottom: none !important;
-}
+  border-bottom: none !important; }
+
 .DashboardProfileCard-content {
-	background-color: #34495E !important;
-}
+  background-color: #34495E !important; }
+
 .DashboardProfileCard-content span, .DashboardProfileCard-content a {
-	color: #67809F !important;
-}
+  color: #67809F !important; }
 
 /* Tendances box */
 .Trends {
-	background-color: #34495E !important;
-	border: 1px solid #34495E !important;
-}
+  background-color: #34495E !important;
+  border: 1px solid #34495E !important; }
+
 .Trends span, .Trends a {
-	color: #67809F !important;
-}
+  color: #67809F !important; }
 
 /* Dashboard */
 .flex-module {
-	background-color: #34495E !important;
-	border: 1px solid #34495E !important;
-}
-.flex-module a, .flex-module span, .flex-module small {
-	color: #67809F !important;
-}
+  background-color: #34495E !important;
+  border: 1px solid #34495E !important; }
 
-.module, .roaming-module, .wtf-module, .js-wtf-module, .has-content{
-	color: #67809F !important;
-}
+.flex-module a, .flex-module span, .flex-module small {
+  color: #67809F !important; }
+
+.module, .roaming-module, .wtf-module, .js-wtf-module, .has-content {
+  color: #67809F !important; }
 
 /* Main stream */
 .tweet {
-	background: #34495E !important;
-	border-bottom: 1px solid #34495E !important;
-	color: #67809F !important;
-}
+  background: #34495E !important;
+  border-bottom: 1px solid #34495E !important;
+  color: #67809F !important; }
+
 .tweet a, .tweet strong, .tweet span {
-	color: #67809F !important;
-}
+  color: #67809F !important; }
+
 .js-stream-item, .stream-item, .stream-item, .expanding-stream-item {
-	border-left: 1px solid #34495E !important;
-	border-right: 1px solid #34495E !important;
-}
+  border-left: 1px solid #34495E !important;
+  border-right: 1px solid #34495E !important; }
+
 /* BS */
 .home-tweet-box, .tweet-box, .component, .tweet-user {
-	background-color: #34495E !important;
-}
-.home-tweet-box, .RetweetDialog-commentBox, .WebToast-box--altColor, .content-main .conversations-enabled .expansion-container .inline-reply-tweetbox
-{
-	background-color: #34495E !important;
-}
-/* BS */
+  background-color: #34495E !important; }
 
+.home-tweet-box, .RetweetDialog-commentBox, .WebToast-box--altColor, .content-main .conversations-enabled .expansion-container .inline-reply-tweetbox {
+  background-color: #34495E !important; }
+
+/* BS */
 span {
-	color: #3A539B !important;
-}
+  color: #3A539B !important; }
+
+/*# sourceMappingURL=darkblue.css.map */
