@@ -1,15 +1,17 @@
-/***  
+/*  
 	CSS file for the darkblue Twitter theme
  	Made by Arc0re.
  	This software is free to use, share and hack.
- ***/
+ */
 
 // Variables
 $bg_color: #34495E;
 $text_color: #67809F;
 $black: #000;
 // *********
-
+* {
+	border-color: $bg_color;
+}
 body {
 	background-color: $black !important;
 	background: $black !important;
@@ -70,6 +72,13 @@ body {
 	border-left: 1px solid $bg_color !important;
 	border-right: 1px solid $bg_color !important;
 }
+.home-tweet-box, .top-timeline-tweetbox .timeline-tweet-box {
+    border-color: $bg_color !important;
+}
+.new-tweets-bar {
+	background-color: $bg_color;
+}
+
 /* BS */
 .home-tweet-box, .tweet-box, .component, .tweet-user {
 	background-color: $bg_color !important;
