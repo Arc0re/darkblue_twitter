@@ -5,9 +5,10 @@
  ***/
 
 // Variables
-$bg_color: #34495E;
+//$bg_color: #34495E;
+$bg_color: #353433;
 $text_color: #67809F;
-$black: #000;
+$black: #252423;
 // *********
 
 body {
@@ -74,9 +75,15 @@ body {
 .home-tweet-box, .tweet-box, .component, .tweet-user {
 	background-color: $bg_color !important;
 }
-.home-tweet-box, .RetweetDialog-commentBox, .WebToast-box--altColor, .content-main .conversations-enabled .expansion-container .inline-reply-tweetbox
-{
+.home-tweet-box, .top-timeline-tweetbox .timeline-tweet-box {
+    border-color: $bg_color !important;
+}
+.home-tweet-box, .RetweetDialog-commentBox, .WebToast-box--altColor, .content-main .conversations-enabled .expansion-container .inline-reply-tweetbox {
 	background-color: $bg_color !important;
+}
+.new-tweets-bar {
+    background-color: $bg_color !important;
+    color: #000;
 }
 /* BS */
 
